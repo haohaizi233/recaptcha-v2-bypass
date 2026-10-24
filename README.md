@@ -98,13 +98,15 @@ pip install -r requirements.txt
 ```
 
 核心依赖：
-- `playwright` + `playwright-stealth` — 浏览器自动化 + 反检测
-- `patchright` — 无 CDP 泄露的 Playwright 分支 (原生策略)
-- `faster-whisper` — 语音识别 (音频策略, INT8 量化)
-- `ultralytics` — YOLOv8 推理 (图像策略)
-- `transformers` + `torch` — CLIP 模型 (图像回退)
-- `PyQt6` — GUI 框架
-- `pyautogui` + `pywin32` — OS 级鼠标控制和 Win32 API
+- [Playwright](https://playwright.dev/) + [playwright-stealth](https://github.com/Mattwmaster58/playwright_stealth) — 浏览器自动化 + 反检测
+- [patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) — 无 CDP 泄露的 Playwright 分支 (原生策略)
+- [faster-whisper](https://github.com/SYSTRAN/faster-whisper) — 语音识别 (音频策略, INT8 量化)
+- [ultralytics](https://github.com/ultralytics/ultralytics) — YOLOv8 推理 (图像策略)
+- [transformers](https://github.com/huggingface/transformers) + [PyTorch](https://pytorch.org/) — CLIP 模型 (图像回退)
+- [PyQt6](https://www.riverbankcomputing.com/software/pyqt/) — GUI 框架
+- [pyautogui](https://pyautogui.readthedocs.io/) + [pywin32](https://github.com/mhammond/pywin32) — OS 级鼠标控制和 Win32 API
+- [NumPy](https://numpy.org/) + [Pillow](https://python-pillow.org/) — 图像处理与数值计算
+- [SpeechRecognition](https://github.com/Uberi/speech_recognition) + [pydub](https://github.com/jiaaro/pydub) — 备选语音识别引擎
 
 安装后执行：
 ```bash
